@@ -19,7 +19,7 @@ public class MainService extends HttpServlet {
         
         System.out.println("GET Output!");
         
-        response.getWriter().println("Output GET - master Branch!!! :D");  
+        response.getWriter().println("Output GET - develop Branch!!! :D");  
         response.getWriter().flush();
     }
 
@@ -29,7 +29,7 @@ public class MainService extends HttpServlet {
         
         System.out.println("POST Output!");
         
-        response.getWriter().println("Output POST - master Branch!!! :D");
+        response.getWriter().println("Output POST - develop Branch!!! :D");
         response.getWriter().flush();
     }
 }
